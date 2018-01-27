@@ -1,6 +1,9 @@
 package com.gmail.myyujinn;
 
+import com.gmail.myyujinn.controllers.ConstructorInjectedController;
+import com.gmail.myyujinn.controllers.GetterInjectedController;
 import com.gmail.myyujinn.controllers.MyController;
+import com.gmail.myyujinn.controllers.PropertyInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -14,5 +17,9 @@ public class DiDemoApplication {
 		MyController controller = (MyController) ctx.getBean("myController");
 
 		controller.hello();
+
+		System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
+		System.out.println(ctx.getBean(GetterInjectedController.class).sayHello());
+		System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
 	}
 }

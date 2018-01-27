@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class GetterInjectedController {
 
-
     private GreetingService greetingService;
 
     @Autowired

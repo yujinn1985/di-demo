@@ -1,4 +1,4 @@
-package com.gmail.myyujinn.services;
+package com.gmail.services;
 
 public interface GreetingRepository {
     String getGermanGreeting();

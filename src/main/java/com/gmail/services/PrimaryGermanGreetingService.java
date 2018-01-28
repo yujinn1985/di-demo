@@ -1,4 +1,4 @@
-package com.gmail.myyujinn.services;
+package com.gmail.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

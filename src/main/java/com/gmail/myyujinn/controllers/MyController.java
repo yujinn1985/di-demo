@@ -1,6 +1,6 @@
 package com.gmail.myyujinn.controllers;
 
-import com.gmail.myyujinn.services.GreetingService;
+import com.gmail.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller

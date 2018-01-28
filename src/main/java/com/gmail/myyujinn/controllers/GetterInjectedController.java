@@ -1,6 +1,6 @@
 package com.gmail.myyujinn.controllers;
 
-import com.gmail.myyujinn.services.GreetingService;
+import com.gmail.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

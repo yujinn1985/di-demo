@@ -1,6 +1,6 @@
 package com.gmail.myyujinn.controllers;
 
-import com.gmail.myyujinn.services.GreetingServiceImpl;
+import com.gmail.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
